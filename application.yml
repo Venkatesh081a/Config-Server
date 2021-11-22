@@ -1,0 +1,9 @@
+microservice:
+  restaurant-service:
+    endpoints:
+      endpoint:
+        uri:http://RESTAURANT-SERVICE/api/v1/restaurants/restaurant/menuItems/
+  order-service:
+    endpoints:
+      endpoint:
+        uri:http://ORDER-SERVICE/api/v1/orders/getAmount/
